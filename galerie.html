@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galerie – Teona Ceramics</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('fundal.jpg');
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+    }
+
+    .background-blur {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(6px);
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 20px;
+      background-color: #967259;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      border: 1px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background"></div>
+  <div class="background-blur"></div>
+
+  <div class="content">
+    <h1>Galerie foto</h1>
+
+    <div class="gallery">
+      <img src="poza1.jpg" alt="Lucrare 1" />
+      <img src="poza2.jpg" alt="Lucrare 2" />
+      <img src="poza3.jpg" alt="Lucrare 3" />
+      <img src="poza4.jpg" alt="Lucrare 4" />
+      <img src="poza5.jpg" alt="Lucrare 5" />
+      <img src="poza6.jpg" alt="Lucrare 6" />
+      <img src="poza7.jpg" alt="Lucrare 7" />
+      <img src="poza8.jpg" alt="Lucrare 8" />
+      <img src="poza9.jpg" alt="Lucrare 9" />
+      <img src="poza10.jpg" alt="Lucrare 10" />
+      <img src="poza11.jpg" alt="Lucrare 11" />
+      <img src="poza12.jpg" alt="Lucrare 12" />
+      <img src="poza13.jpg" alt="Lucrare 13" />
+      <img src="poza14.jpg" alt="Lucrare 14" />
+      <img src="poza15.jpg" alt="Lucrare 15" />
+      <img src="poza16.jpg" alt="Lucrare 16" />
+      <img src="poza17.jpg" alt="Lucrare 17" />
+      <img src="poza18.jpg" alt="Lucrare 18" />
+      <img src="poza19.jpg" alt="Lucrare 19" />
+      <img src="poza20.jpg" alt="Lucrare 20" />
+    </div>
+
+    <a class="back-button" href="index.html">← Înapoi la pagina principală</a>
+  </div>
+</body>
+</html>
