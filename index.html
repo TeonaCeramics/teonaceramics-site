@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teona Ceramics</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('fundal.jpg');
+      background-size: cover;
+      background-position: center;
+      z-index: -2;
+    }
+
+    .background-blur {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(6px);
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .content {
+      text-align: center;
+      padding: 40px 20px;
+      color: #fff;
+    }
+
+    img.logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-weight: normal;
+      color: #fff;
+    }
+
+    .button {
+      display: block;
+      margin: 12px auto;
+      padding: 14px 24px;
+      font-size: 18px;
+      border-radius: 8px;
+      width: 80%;
+      max-width: 300px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border: 1px solid white;
+    }
+
+    .fb { background-color: #4267B2; }
+    .ig { background-color: #E1306C; }
+    .threads { background-color: #000; }
+    .gallery-button { background-color: #967259; }
+
+    .email {
+      margin-top: 40px;
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    .email a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .about {
+      margin-top: 60px;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #eee;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background"></div>
+  <div class="background-blur"></div>
+
+  <div class="content">
+    <img src="LOGO-LINK.jpeg" alt="Logo Teona Ceramics" class="logo" />
+
+    <h1>Teona Ceramics</h1>
+    <h2>Teona Gîrneț</h2>
+
+    <a class="button fb" href="https://www.facebook.com/share/16a1wESS7r/?mibextid=wwXIfr" target="_blank">Facebook</a>
+    <a class="button ig" href="https://www.instagram.com/teona.ceramics?igsh=d3UwN2d3cWphZHl2&utm_source=qr" target="_blank">Instagram</a>
+    <a class="button threads" href="https://www.threads.com/@teona.ceramics?igshid=NTc4MTIwNjQ2YQ==" target="_blank">Threads</a>
+    <a class="button gallery-button" href="galerie.html">Galerie Foto</a>
+
+    <div class="email">
+      📩 <a href="mailto:teona.ceramics@gmail.com">teona.ceramics@gmail.com</a>
+    </div>
+
+    <div class="about">
+      <p>
+        Fiecare piesă ceramică poartă în ea liniște, intenție și timp. Sunt obiecte modelate manual, cu atenție la formă, textură și detalii — create pentru a aduce frumusețe discretă în viața de zi cu zi.
+      </p>
+      <p>
+        Inspirate de natură, simplitate și echilibru, lucrările urmăresc o estetică sinceră, în care imperfecțiunea devine expresie. Nu e vorba doar despre utilitate, ci despre atmosferă, despre gesturi mici care fac diferența.
+      </p>
+      <p>
+        Te invit să descoperi universul ceramiciii și să te lași inspirat de armonia dintre formă, esență și spațiu!
+      </p>
+    </div>
+
+    <div class="gallery">
+      <img src="poza1.jpg" alt="Lucrare ceramică 1" />
+      <img src="poza2.jpg" alt="Lucrare ceramică 2" />
+      <img src="poza3.jpg" alt="Lucrare ceramică 3" />
+    </div>
+  </div>
+</body>
+</html>
